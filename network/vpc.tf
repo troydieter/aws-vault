@@ -8,3 +8,7 @@ resource "aws_vpc" "hcvault_vpc" {
      )
    )}"
 }
+
+output "hcvault_vpc-id" {
+  value = aws_vpc.hcvault_vpc.id
+}

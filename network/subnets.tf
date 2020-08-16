@@ -36,4 +36,20 @@ resource "aws_subnet" "public_subnet" {
 
 }
 
+output "hcvault_priv_subnet0-id" {
+  value = aws_subnet.private_subnet.0.id
+}
+
+output "hcvault_priv_subnet1-id" {
+  value = aws_subnet.private_subnet.1.id
+}
+
+output "hcvault_pub_subnet0-id" {
+  value = aws_subnet.public_subnet.0.id
+}
+
+output "hcvault_pub_subnet1-id" {
+  value = aws_subnet.public_subnet.1.id
+}
+
 
