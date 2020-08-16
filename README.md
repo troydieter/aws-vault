@@ -37,3 +37,6 @@ Includes the following components:
  - Secrets Manager for HC Vault unlock key
  - Bastion host for EC2 instance in public subnet
  - Application Load Balancer for proper routing
+
+**Architecture target**
+![enter image description here](https://d1.awsstatic.com/partner-network/QuickStart/datasheets/hashicorp-vault-on-aws-architecture.c47a3bf846dc964bb4464471a764b26f1b0d9639.png)
