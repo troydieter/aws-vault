@@ -51,7 +51,7 @@ ebs_block_device{
 
 
   tags = "${merge(
-     local.common-tags,
+     local.common-tags-data,
      map(
        "Name", "hcvault-ec2",
        "Description", "HCVault Cluster Ec2 instance"
